@@ -1,0 +1,147 @@
+<!DOCTYPE html>  
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerca de Proteção</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<!--corpo da pagina-->                                                                                                           
+<body>   
+
+    <section class="Visao-Geral">
+        <div class="Titulo"> 
+            <p><h1> Visão Geral da Cerca de Proteção</h1><p>
+        </div>
+            <div class="Conteúdo">
+                Cercas de Proteção da Rotoline são fabricadas em aço, com pintura eletrostática, suportes de fixação galvanizados, de forma modular e contribuem para a adequação das normas de máquinas, equipamentos, além de outras utilidades.
+                São vendidas em módulos, divididos em: painel 1000, painel 500 suportes para a fixação e portões que possuem abertura tanto para a direita, quanto para a esquerda.
+                A cerca é de fácil encaixe, o que permite que a montagem, seja rápida e fácil, não havendo necessidade de mão de obra especializada para sua instalação.
+                As Cercas de Proteção da Rotoline podem ser adquiridas em diferentes quantidades de acordo com a necessidade do cliente.<br>
+            </div>
+    </section>
+<br>
+        <div class="box-container">
+            <div class="box">
+                <label>
+                    Vertical<img id="image" src="imagens/Cerca-de-protecao-Rotoline-01.jpg"/>
+                </label>
+                <br><br>
+                <label>
+                    Horizontal <img id="imagem" src="imagens/Cerca-de-Protecao-002.jpg"/>
+                </label>
+        </div>
+</br>
+    <div class="container">
+        <div class="item container-a">
+            <img src="imagens/Cerca-de-Protecao-Seguranca-004.jpg">
+        </div>
+        <div class="item container-b">
+            <img src="imagens/Cerca-de-Protecao-Seguranca-006.jpg">
+        </div>
+        <div class="item container-c">
+            <img src="imagens/Cerca-de-Protecao-Seguranca-007.jpg">
+        </div>
+        <div class="item container-d">
+            <img src="imagens/Cerca-de-Protecao-Seguranca-008.jpg">
+        </div>
+        <div class="item container-e">
+            <img src="imagens/Cerca-de-Protecao-Seguranca-010.jpg">
+        </div>
+        <div class="item container-e">
+            <img src="imagens/Cerca-de-Protecao-Seguranca-011.jpg">
+        </div>
+        <div class= "item container-f">
+            <img src= "imagens/Cerca-de-Protecao-Seguranca-012.jpg">
+        </div>
+    </div>
+<br>
+</div>
+        <div class= "formulario">
+                <div class= "Formulário-Cerca">
+                    <label>
+                        Simule sua Cerca de Proteção
+                    </label>
+                </div>
+        <form action = "resultado.php" method = "post">
+                <div>   
+                    <label> 
+                        Formado da Cerca : 
+                    </label>
+                <select name= "Formato">
+                    <option value= "Selecione" selected>Selecione</option>
+                    <option value= "Horizontal">Horizontal</option>
+                    <option value= "Vertical">Vertical</option>
+                </select>
+                </div>
+</br>
+        <div class= "Portão">
+                    <label> 
+                        Portão :
+                    </label>
+                <select name= "Portao"> 
+                    <option value= "Selecione" selected> Selecione</option>
+                    <option value= "1"> Sim </option>
+                    <option value= "0">Não</option>
+                </select>
+        </div>
+<br>
+        <div class= "Tamanho do Portão">
+                    <label>Tamanho do Portão : </label> 
+                <select name= "Tportao"> 
+                    <option value= "Selecione" selected>Selecione</option>
+                    <option value= "1190">1190 mm</option>
+                    <option value= "2000">2000 mm</option>
+                    <option value= "2800">2800 mm</option>
+                </select>
+        </div>
+</br>
+        <div class= "Espaço em metros">
+                    <label> 
+                         Metros (Raio):
+                    </label>
+                    <input type= "number" name= "Metros"  placeholder= "Informe os metros" />
+        </div>
+</br>
+        <div class= "Angulo da Cerca">
+                    <label>
+                        Angulo de Cerca:
+                    </label>
+                    <input type= "number" name= "Ângulo" placeholder= "Informe o ângulo"/>
+        </div>
+</br>
+        <div class= "button">
+            <button type="submit" class = "sucess-btn">Calcular</button>
+        </div> 
+</form>
+<br>
+</div>
+
+<footer>
+        <div class= "logo-rotoline">
+            <img src="imagens/logo-rotoline-footer.png">
+        </div>
+                    <Label name= "copy"> 
+                        Copy © 2022 Rotoline Equipamentos Industirais Ltda 
+                    </Label>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</htm>

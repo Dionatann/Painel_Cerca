@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(245, 248, 255);
+}
+
+section{ 
+    display:flex;
+    justify-content:center;
+    width: 50%;
+    height: 50px;
+    border-bottom: 1px solid rgb(69, 69, 172);
+}
+   
+.Titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:70px;
+    background-image: radial-gradient(circle at 24.57% 80.3%, #5aa9d3 0, #4588ac 25%, #31a7e2 50%, #00a1eb 75%, #008fe4 100%);    font-family: Helvetica, sans-serif;
+    color:white;
+}
+   
+div.Conteúdo {                                                                                                                 
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display	:flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lucida" Grande, sans-serif;
+    font-size: 17px;
+    color:rgb(0, 0, 0); 
+}
+   
+.box { 
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #cfe9f8;
+    color:rgb(28, 61, 133);
+    font-size: 20px;
+    font-family:fantasy;
+}
+
+.box img {
+    width: 620px;
+    height:350px;
+    padding:9px;
+    display:flex;
+    justify-content: center;
+}
+
+div.container {
+    width: 100%;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#cfe9f8;;
+    border-bottom: 1px solid rgb(69, 69, 172);
+}
+
+.item{ 
+    width:100%;
+    height:80%;
+    padding: 4px;
+    display:flex; 
+    align-items: center;
+}
+    
+.container-a img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-b img{
+    width: 100%;
+    height: 100%;
+}
+.container-c img {
+    width: 100%;
+    height: 100%;
+}
+.container-d img{
+    width: 100%;
+    height: 100%;
+}
+.container-e img{
+    width: 100%;
+    height: 100%;
+}
+.container-f img{
+    width: 100%;
+    height: 100%;
+}
+
+.formulario {
+    width: 100%;
+    height: 100%;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfe9f8;
+}
+
+.Formulário-Cerca{
+
+    width:40%;
+    height:40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at 24.57% 80.3%, #689fd3 0, #3e7999 25%, #6caccc 50%, #428aac 75%, #216a94 100%);    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(122, 122, 122);
+    
+}
+
+form { 
+    width:40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(166, 202, 223);
+    
+
+}
+
+button .btn-success{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background-color: #5bd15f;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    font-size: 12px;
+    width: 100%;
+    height: 22px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-image: radial-gradient(circle at 24.57% 80.3%, #689fd3 0, #3e7999 25%, #6caccc 50%, #428aac 75%, #216a94 100%);    font-family: Helvetica, sans-serif;
+    color:white;
+}
+
+.logo-rotoline img{
+    width: 100px;
+    height: 16px;
+    padding-left: 10px;
+    display: flex;
+}
